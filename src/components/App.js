@@ -22,7 +22,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className='container'>
+            <div className=' ui container'>
                 <SearchBar onTermSubmit={this.onTermSubmit} />
                 <VideoDetail video={this.state.selectedVideo} />
                 <VideoList
